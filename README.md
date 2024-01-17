@@ -1,4 +1,4 @@
 # Resume
-Resume for summer internship 2024 
+Here are the resumes I have used to get internships 
+Feel free to copy the LaTex codes of the resume
 
- Just to see the pdf of resume, you can click Resume(S2024).pdf
