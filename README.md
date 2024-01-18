@@ -37,7 +37,7 @@ Click this link [Click here](https://github.com/sherwinvishesh/Resume/blob/aafd8
     
     ```
  2. Open `Main.tex`.
- 3. Compile it using a LaTeX editor (like Overleaf, TeXstudio, etc.).
+ 3. Compile it using a LaTeX editor ([like Overleaf](https://www.overleaf.com/), TeXstudio, etc.).
 
 
 ## Contact Information
