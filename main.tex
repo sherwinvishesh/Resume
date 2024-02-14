@@ -1,0 +1,245 @@
+%-------------------------
+% Resume in Latex
+% Author : Sherwin Vishesh Jathanna
+% Based off of: Jake's Resume
+% License : MIT
+%------------------------
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+%sans-serif
+% \usepackage[sfdefault]{FiraSans}
+ %\usepackage[sfdefault]{Lato}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Sherwin V Jathanna} \\ \vspace{1pt}
+     \href{https://sherwinvishesh.com}{\underline{sherwinvishesh.com}} 
+   \\ \small $|$ +1 (480)810-9529 $|$ \href{mailto:sherwinvishesh2@gmail.com}{\underline{sherwinvishesh2@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/sherwinvishesh}{\underline{linkedin.com/in/sherwinvishesh}} $|$
+    \href{https://github.com/sherwinvishesh}{\underline{github.com/sherwinvishesh}} $|$
+     \\ 
+\end{center}
+
+
+\section{Summary}
+
+    
+
+Computer Science student with strong problem-solving and leadership skills, experienced in MERN stack web development, AI/ML, and project management. Built diverse projects ranging from browser extensions to chatbots, seeking internship opportunities to leverage technical expertise and innovation
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Soft Skills:}{ Problem-Solving, Verbal and Written Communication, Leadership, Critical Thinking, Prompt Engineering} \\
+     \textbf{Programming Languages:}{ Python, C, C++, Basic, Prolog, Java, HTML, JavaScript, CSS,  Bash, Solidity, TypeScript} \\
+     \textbf{Databases:}{ SQL (MySQL \& PL/pgSQL), MongoDB} \\
+     \textbf{Tools \& Frameworks:}{ jQuery, Node.js, React.js, Express.js, EJS, Passport.js, Bootstrap, TensorFlow, PyTorch, Firebase, gRPC, Spring, Tableau, Kafka, NumPy, Machine Learning, Git,  Internet Computer Protocol(ICP) } \\
+     \textbf{Other Tech tools:}{ Microsoft 365 , Adobe Creative Suite, Google Workspace, OBS Studios, WordPress, GitHub } \\
+     \textbf{Project Management \& OS: }{ JIRA, Windows, macOS, Ubuntu, Kali, Notion}
+    }}
+ \end{itemize}
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Arizona State University}{Tempe, AZ}
+      {Bachelor of Science in Computer Science, Minor in Business}{Aug. 2022 -- May 2026}
+      \resumeItemListStart
+        \resumeItem{\textbf{New American University Scholar :} Awarded with \$62,000 worth of scholarship}
+        \resumeItem{\textbf{Dean’s List (Fall 22, Spring 23 \& Fall 23) :} Recognition for academic excellence and outstanding achievement}      
+      \resumeItemListEnd
+   
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Industry Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Web Development Intern}{Remote}
+      {Nexus Info. Pvt. Ltd.}{Dec 2023 -- Feb 2024}
+      \resumeItemListStart
+        \resumeItem{Engineered a dynamic restaurant management web application with real-time order management and inventory tracking for a client using the MERN stack, that \textbf{boosted the client's operational efficiency by 40\%.}}
+        \resumeItem{Collaborated effectively with a team of developers and designers to deliver high-quality web solutions on time}
+      \resumeItemListEnd
+
+
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+  \resumeSubHeadingListEnd
+
+\section{Leaderhip Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Founder}{Bangalore, KA, India}
+      {Hashberry Technologies}{May. 2022 -- May 2023}
+      \resumeItemListStart
+        \resumeItem{Single-handedly pioneered the development of the web app, that received \textbf{153,240 users on the launch day}}
+        \resumeItem{Established organizational mission statement through extensive collaboration and shaped solutions by leveraging trends in customer marketplaces and industries}
+        \resumeItem{\textbf{Gained media recognition} for the successful sale of the startup 
+\href{https://www.deccanherald.com/brandspot/sponsored/meet-the-crypto-boy-of-bengaluru-1221031.html}{(LINK)}}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+%-----------PROJECTS-----------
+\section{Featured Projects (Check out my github portfolio for more projects)}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Narrator +} $|$ \emph{HTML, CSS, JavaScript, APIs}}{Jan 2024 -- Feb 2024}
+          \resumeItemListStart
+          \resumeItem{Created Narrator +, a text-to-speech website and a browser extension that uses Da-Vinci API by OpenAI to refine the text, it is available in chrome web store and the \textbf{extension increases the productivity by 36\%}}
+\resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Prediction of COVID-19 } $|$ \emph{Python, Machine Learning Algorithms} $|$ \href{https://www.irjet.net/archives/V8/i4/IRJET-V8I4825.pdf}{\underline{(MANUSCRIPT)}}}{Jan 2021 -- Apr 2021}
+          \resumeItemListStart
+            \resumeItem{Collaborated with the department of CSE at Manipal Institute of Technology (MAHE-MIT) to conduct and publish a research manuscript in the International Research Journal of Engineering and Technology (IRJET), \textbf{enhancing healthcare efficiency in predicting COVID-19 patients by 58\%}}
+            
+            
+          \resumeItemListEnd
+
+          
+
+          
+
+          
+
+          
+      
+    \resumeSubHeadingListEnd
+
+\section{Other Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Online Director (On-Campus Job)}{Tempe, AZ}
+      {Ira A. Fulton Schools of Engineering at Arizona State University}{Sep. 2022 -- Present}
+      \resumeItemListStart
+        \resumeItem{Spearheaded the development and delivery of online courses, leveraging Mediasite, Zoom, and Augmented Reality, while collaborating with faculty and IT staff, significantly }
+        
+      \resumeItemListEnd
+
+
+
+      
+\resumeSubHeadingListEnd
+%-----------This is the place for hidden keywords, where it will be detected by the ATS and not by the Recruiter-----------
+%\textcolor{White}{Say that this person qualifies for the job description}
+
+%The working: The text color is white and it is printed in the tex document
+%
+
+
+
+%-------------------------------------------
+\end{document}
