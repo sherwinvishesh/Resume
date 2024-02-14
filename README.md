@@ -1,14 +1,15 @@
-
 # Sherwin's Resume 
+This repository contains the LaTeX code for my resume, created using Overleaf, along with an archive of my old resumes and their respective LaTeX codes.
 
-## Introduction
-Welcome to my resume repository! This is a resume where I've built over LaTex on Overleaf, tailored for applying to summer internships.
+## Contents
 
-## Repository Contents
-- **2023Fall**: The resumes I had created during my Fall 2023 semester at ASU
-- **Spring24**: The resumes I had created during my Spring 2024 semester at ASU
+- `main.tex`: The LaTeX source code for my current resume.
+- `archive`: A directory containing archived versions of my old resumes and their LaTeX source codes.
+- `resume.pdf`: The PDF of my current resume.
 
-## About the Resume
+## Overview
+
+The main resume (`main.tex`) is designed to showcase my professional experience, education, skills, and accomplishments in a clean and readable format. The archive folder contains a historical record of my career progression and changes in my resume over time.
 This resume highlights:
 - **Skills**: A detailed list of my technical and soft skills, showcasing my proficiency and expertise in various domains.
 - **Education**: Information about my academic background, including degrees obtained, majors, and notable academic achievements.
@@ -17,38 +18,42 @@ This resume highlights:
 - **Projects**: A showcase of significant projects I have undertaken, illustrating my practical application of skills in real-world scenarios.
 - **Other Experiences**: Additional experiences that have contributed to my professional growth.
 
-## How to see my latest resume
-Click the below link to view it on
-- **Github**: [Click here](https://github.com/sherwinvishesh/Resume/blob/aafd83492e342077af526495ce045c45d8e0315e/Spring24/R24-Fin.pdf)
-- **Drive**: [Click here](https://drive.google.com/file/d/1HDFUDDl5uK9zW36QrXyMAvsddsQsAdpV)
+### Building the Resume
 
+To compile the resume to a PDF, you will need a LaTeX distribution installed on your computer. You can also use Overleaf, an online LaTeX editor, to open and compile the `.tex` files.
 
+#### Local Compilation
 
-## How to use my latest resume's tex file
+If you have a LaTeX distribution installed, you can compile the resume using the following command:
 
-### To view it online
-Click this link [Click here](https://github.com/sherwinvishesh/Resume/blob/aafd83492e342077af526495ce045c45d8e0315e/Spring24/Main.tex)
+```bash
+git clone https://github.com/sherwinvishesh/Resume.git
+cd Resume
+pdflatex main.tex
+```
+This command will generate a resume.pdf file from the LaTeX source code.
 
-### To view it offline
+#### Using Overleaf
 1. Clone this repository to your local machine.
     ```bash
-    git clone https://github.com/sherwinvishesh/Resume.git
-    cd Spring24
+   git clone https://github.com/sherwinvishesh/Resume.git
+   cd Resume
     
     ```
  2. Open `Main.tex`.
  3. Compile it using a LaTeX editor ([like Overleaf](https://www.overleaf.com/), TeXstudio, etc.).
 
+## Archive
+The archive/ folder contains previous versions of my resume. Each subfolder within archive/ is named after the date or version of the resume it contains, along with a PDF and source code in LaTeX format.
 
-## Contact Information
-For more information or to discuss potential opportunities, feel free to reach out:
-- **Email**: [admin@asherwinvishesh.com](mailto:admin@asherwinvishesh.com)
-- **LinkedIn**: [sherwinvishesh](https://www.linkedin.com/in/sherwinvishesh)
+## License
 
-## Acknowledgments
-Special thanks to everyone who has guided and supported me in my journey so far.
+This project is open source and available under the [MIT License](LICENSE).
+
+## Connect with Me
+
+Feel free to reach out and connect with me on [LinkedIn](https://www.linkedin.com/in/sherwinvishesh) or [Instagram](https://www.instagram.com/sherwinvishesh/).
 
 ---
 
-Looking forward to connecting with potential employers and peers!
-
+Made with ❤️ by Sherwin
