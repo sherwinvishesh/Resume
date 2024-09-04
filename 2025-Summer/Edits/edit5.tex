@@ -1,0 +1,188 @@
+%-------------------------
+% Resume in Latex
+% Author : Sherwin Vishesh Jathanna
+% Based off of: Jake's Resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Sherwin Vishesh Jathanna} \\ \vspace{1pt}
+     \href{https://sherwinvishesh.com}{\underline{sherwinvishesh.com}} 
+   \\ \small $|$ +1 (480)810-9529 $|$ \href{mailto:sjathann@asu.edu}{\underline{sjathann@asu.edu}} $|$ 
+    \href{https://linkedin.com/in/sherwinvishesh}{\underline{linkedin.com/in/sherwinvishesh}} $|$
+    \href{https://github.com/sherwinvishesh}{\underline{github.com/sherwinvishesh}} $|$
+     \\ 
+\end{center}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages:}{ Python, C, C++, Java, JavaScript (Node, React, Vue), TypeScript, HTML, CSS, Solidity, Go, Bash} \\
+     \textbf{Frameworks \& Tools:}{ Node.js, React.js, Next.js, TensorFlow, PyTorch, Flask, Docker, Kubernetes, Ansible, Jenkins, Git, Microservices, REST APIs, GraphQL, Azure, AWS} \\
+     \textbf{Databases:}{ SQL (MySQL), MongoDB} \\
+     \textbf{Computer Science Fundamentals:}{ Data Structures, Algorithms, Object-Oriented Programming, Software Engineering Principles, System Design, Multithreading, Distributed Systems} \\
+     \textbf{Version Control:}{ Git, GitHub, Perforce} \\
+     \textbf{Project Management:}{ Agile Methodologies, JIRA, Trello, Asana, Notion} \\
+     \textbf{Soft Skills:}{ Problem-Solving, Verbal and Written Communication, Team Collaboration, Leadership, Time Management} \\
+    }}
+ \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Arizona State University}{Tempe, AZ}
+      {Bachelor of Science in Computer Science, Minor in Business}{Aug. 2022 -- May 2026}
+      \resumeItemListStart
+        \resumeItem{\textbf{New American University Scholar:} Awarded with \$62,000 worth of scholarship}
+        \resumeItem{\textbf{Dean’s List (Fall 22, Spring 23, Fall 23 \& Spring 24):} Recognition for academic excellence}      
+        \resumeItem{\textbf{Relevant Coursework:} Data Structures, Algorithms, Object-Oriented Programming, Operating Systems, Database Systems, Software Engineering, Distributed Systems, Computer Networks}
+      \resumeItemListEnd
+   
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Industry Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Web Development Intern}{Remote}
+      {Nexus Info. Pvt. Ltd.}{Dec 2023 -- Feb 2024}
+      \resumeItemListStart
+        \resumeItem{Developed a full-stack restaurant management web application using the MERN stack, which improved operational efficiency by 40\%.}
+        \resumeItem{Integrated real-time order management and inventory tracking features, ensuring a seamless user experience.}
+        \resumeItem{Collaborated with cross-functional teams to deliver high-quality software solutions under tight deadlines.}
+        \resumeItem{Gained hands-on experience with version control, CI/CD pipelines, and cloud deployment using Docker and Kubernetes.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Featured Projects (Check out my GitHub portfolio for more projects)}
+    \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+          {\textbf{Project-Atharv} $|$ \emph{Python, Flask, APIs, Generative AI} $|$ \href{https://www.atharv.pro}{\underline{(WEBSITE)}}}{May 2024 -  Aug 2024 } 
+          \resumeItemListStart
+            \resumeItem{Launched Atharv, an AI-powered agricultural assistant with 5,000 users in 48 hours, improving crop disease diagnosis and weather prediction accuracy by 73\%.}
+            \resumeItem{Utilized Flask, REST APIs, and machine learning models to deliver personalized farming insights in local languages.}
+            \resumeItem{Collaborated with government agencies to integrate the platform with existing agricultural databases.}
+             \resumeItemListEnd
+
+
+\resumeProjectHeading
+          {\textbf{QuickAid} $|$ \emph{HTML, CSS, Node.js, Express.js, AI, APIs} $|$ \href{https://github.com/sherwinvishesh/QuickAid}{\underline{(GITHUB)}}}{Apr 2024 } 
+          \resumeItemListStart
+            \resumeItem{Developed QuickAid, an AI-powered first-aid tool for analyzing injury images and recommending care, increasing accuracy of initial medical responses by 40\%.}
+            \resumeItem{Implemented a RESTful API to handle image processing and integrated with a deep learning model for injury classification.}
+            \resumeItem{Optimized the application for scalability and responsiveness across various devices.}
+            \resumeItemListEnd
+
+
+
+
+    \resumeSubHeadingListEnd
+
+\section{Other Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Online Director (On-Campus Job)}{Tempe, AZ}
+      {Ira A. Fulton Schools of Engineering at Arizona State University}{Sep. 2022 -- Present}
+      \resumeItemListStart
+        \resumeItem{Led the development and delivery of online courses, utilizing Mediasite, Zoom, and Augmented Reality to enhance distance learning outcomes by 45\%.}
+        \resumeItem{Collaborated with faculty and IT staff to design and implement engaging and effective online learning experiences.}
+        \resumeItem{Implemented innovative solutions to improve the accessibility and quality of remote education.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+%-----------This is the place for hidden keywords, where it will be detected by the ATS and not by the Recruiter-----------
+%\textcolor{White}{Software Engineering, Fullstack Development, Object-Oriented Programming, Data Structures, Algorithms, REST APIs, Cloud Computing, Agile Methodologies, Python, Java, C++, JavaScript, Node.js, React.js, Version Control, Distributed Systems, Machine Learning, Kubernetes, Docker, CI/CD, Problem-Solving, Team Collaboration, Microsoft Internship}
+
+\end{document}
