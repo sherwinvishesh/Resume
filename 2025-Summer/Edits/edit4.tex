@@ -1,0 +1,192 @@
+%-------------------------
+% Resume in Latex
+% Author : Sherwin Vishesh Jathanna
+% Based off of: Jake's Resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Sherwin Vishesh Jathanna} \\ \vspace{1pt}
+    \href{https://sherwinvishesh.com}{\underline{sherwinvishesh.com}} 
+   \\ \small $|$ +1 (480)810-9529 $|$ \href{mailto:sjathann@asu.edu}{\underline{sjathann@asu.edu}} $|$ 
+    \href{https://linkedin.com/in/sherwinvishesh}{\underline{linkedin.com/in/sherwinvishesh}} $|$
+    \href{https://github.com/sherwinvishesh}{\underline{github.com/sherwinvishesh}} $|$
+\end{center}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages:}{ Python, C++, Java, JavaScript, SQL, R, Bash, Solidity, TypeScript, CUDA, Go, Perl, C#} \\
+     \textbf{Data Science \& Machine Learning:}{ TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, MATLAB, SAS, AMPL, A/B Testing, Hypothesis Testing, Experimentation} \\
+     \textbf{Big Data Technologies:}{ Hadoop, Spark, SQL (MySQL), MongoDB, Azure, AWS, Google Cloud} \\
+     \textbf{Tools \& Frameworks:}{ Jupyter, Docker, Jenkins, Kubernetes, Flask, React.js, Node.js, TensorFlow, PyTorch, OpenCV} \\
+     \textbf{Statistics \& Mathematics:}{ Regression, Classification, Clustering, Time Series Analysis, Bayesian Methods, Optimization Algorithms} \\
+     \textbf{Software Engineering:}{ Unix/Shell Scripting, Version Control (Git), Microservices, System Design} \\
+     \textbf{Project Management:}{ JIRA, Notion, Trello, Asana, Agile Methodologies} \\
+     \textbf{Operating Systems:}{ Windows, macOS, Linux (Ubuntu, Kali)}
+    }}
+ \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Arizona State University}{Tempe, AZ}
+      {Bachelor of Science in Computer Science, Minor in Business}{Aug. 2022 -- May 2026}
+      \resumeItemListStart
+        \resumeItem{\textbf{New American University Scholar:} Awarded with \$62,000 scholarship for academic excellence.}
+        \resumeItem{\textbf{Dean’s List:} Achieved consistent recognition for academic excellence across multiple semesters.}      
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Industry Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Web Development Intern}{Remote}
+      {Nexus Info. Pvt. Ltd.}{Dec 2023 -- Feb 2024}
+      \resumeItemListStart
+        \resumeItem{Developed a dynamic web application for restaurant management using MERN stack, enhancing operational efficiency by 40\%.}
+        \resumeItem{Collaborated with cross-functional teams to deliver scalable and efficient web solutions.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Featured Projects}
+    \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+          {\textbf{Project-Atharv} $|$ \emph{Python, Flask, Generative AI, Data Analysis, APIs} $|$ \href{https://www.atharv.pro}{\underline{(WEBSITE)}}}{May 2024 -  Aug 2024 } 
+          \resumeItemListStart
+            \resumeItem{Developed Atharv, an AI-powered assistant for agriculture, which improved crop disease diagnosis and weather prediction accuracy by 73\%. Utilized machine learning models to provide personalized farming insights in local languages.}
+             \resumeItemListEnd
+
+    \resumeProjectHeading
+          {\textbf{BlockBallot} $|$ \emph{Solana, Rust, React.js, Tailwind CSS, Data Security} $|$ \href{https://github.com/sherwinvishesh/BlockBallot}{\underline{(GITHUB)}}}{Jul 2024 } 
+          \resumeItemListStart
+            \resumeItem{Engineered BlockBallot, a decentralized voting system on Solana blockchain, increasing voter participation by 30\% through enhanced security and transparency.}
+            \resumeItemListEnd
+
+    \resumeProjectHeading
+          {\textbf{QuickAid} $|$ \emph{AI, Node.js, Express.js, Image Processing, APIs} $|$ \href{https://github.com/sherwinvishesh/QuickAid}{\underline{(GITHUB)}}}{Apr 2024 } 
+          \resumeItemListStart
+            \resumeItem{Created QuickAid, an AI-driven first-aid tool that analyzes injury images and recommends appropriate care, improving the accuracy of initial medical responses by 40\%.}
+            \resumeItemListEnd
+
+    \resumeProjectHeading
+          {\textbf{StrategX} $|$ \emph{Python, Machine Learning, Time Series Analysis, ARIMA, Flask} $|$ \href{https://github.com/sherwinvishesh/StrategX}{\underline{(GITHUB)}}}{Feb 2024 - Mar 2024 } 
+          \resumeItemListStart
+            \resumeItem{Developed StrategX, a trading platform that leverages AI for stock analysis, increasing decision-making efficiency by 48\% through accurate predictions and insightful analysis.}
+            \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Read Easy} $|$ \emph{HTML, CSS, JavaScript, Accessibility Tools} $|$ \href{https://github.com/sherwinvishesh/Read-Easy}{\underline{(GITHUB)}}}{Jan 2024 -- Mar 2024}
+          \resumeItemListStart
+          \resumeItem{Designed Read Easy, a Chrome extension to enhance online reading accessibility for dyslexic users, increasing productivity by 36\%.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+\section{Other Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Online Director (On-Campus Job)}{Tempe, AZ}
+      {Ira A. Fulton Schools of Engineering at Arizona State University}{Sep. 2022 -- Present}
+      \resumeItemListStart
+        \resumeItem{Led the development and delivery of online courses, enhancing distance learning outcomes by 45\% through the use of Mediasite, Zoom, and Augmented Reality.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+%-----------This is the place for hidden keywords, where it will be detected by the ATS and not by the Recruiter-----------
+%\textcolor{White}{Data Science, Machine Learning, Python, SQL, Big Data, Hadoop, Spark, A/B Testing, Experimentation, Statistics, MATLAB, R, SAS, Data Analysis, Algorithms, Cloud Computing, Azure, AWS, TensorFlow, Scikit-learn, PyTorch}
+
+\end{document}
