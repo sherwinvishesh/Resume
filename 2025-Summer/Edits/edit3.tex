@@ -1,0 +1,188 @@
+%-------------------------
+% Resume in Latex
+% Author : Sherwin Vishesh Jathanna
+% Based off of: Jake's Resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Sherwin Vishesh Jathanna} \\ \vspace{1pt}
+    \href{https://sherwinvishesh.com}{\underline{sherwinvishesh.com}} 
+    \\ \small $|$ +1 (480)810-9529 $|$ \href{mailto:sjathann@asu.edu}{\underline{sjathann@asu.edu}} $|$ 
+    \href{https://linkedin.com/in/sherwinvishesh}{\underline{linkedin.com/in/sherwinvishesh}} $|$
+    \href{https://github.com/sherwinvishesh}{\underline{github.com/sherwinvishesh}} $|$
+     \\ 
+\end{center}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Consulting Skills:}{ Client Relationship Management, Risk Management, Requirements Analysis, Solution Design, Project Planning, Technical Consultation} \\
+     \textbf{Programming Languages:}{ Python, Java, JavaScript (Node, React), HTML, CSS, TypeScript, Bash, Go} \\
+     \textbf{Cloud Platforms:}{ Microsoft Azure, AWS, Google Cloud Platform} \\
+     \textbf{Tools \& Frameworks:}{ Docker, Kubernetes, Ansible, Jenkins, React.js, Node.js, Machine Learning, Deep Learning, TensorFlow, PyTorch, XGBoost, Flask, Microservices} \\
+     \textbf{Project Management:}{ Scrum, Agile, JIRA, Trello, Asana, Notion} \\
+     \textbf{Database Management:}{ SQL (MySQL), MongoDB} \\
+     \textbf{Operating Systems:}{ Windows, macOS, Linux (Ubuntu, Kali)} \\
+     \textbf{Certifications:}{ Microsoft Certified: Azure Fundamentals, Certified ScrumMaster (CSM)} \\
+    }}
+ \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Arizona State University}{Tempe, AZ}
+      {Bachelor of Science in Computer Science, Minor in Business}{Aug. 2022 -- May 2026}
+      \resumeItemListStart
+        \resumeItem{\textbf{New American University Scholar:} Awarded with \$62,000 worth of scholarship}
+        \resumeItem{\textbf{Dean’s List (Fall 22, Spring 23, Fall 23 \& Spring 24):} Recognition for academic excellence}      
+      \resumeItemListEnd
+   
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Industry Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Web Development Intern}{Remote}
+      {Nexus Info. Pvt. Ltd.}{Dec 2023 -- Feb 2024}
+      \resumeItemListStart
+        \resumeItem{Engineered a dynamic restaurant management web application with real-time order management and inventory tracking using the MERN stack, \textbf{boosting operational efficiency by 40\%}.}
+        \resumeItem{Collaborated with cross-functional teams to deliver high-quality solutions, contributing to successful client relationships and satisfaction.}
+        \resumeItem{Identified and mitigated project risks, ensuring timely and efficient delivery of solutions.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Featured Projects}
+    \resumeSubHeadingListStart
+\resumeProjectHeading
+          {\textbf{Project-Atharv} $|$ \emph{Python, Flask, APIs, Generative AI, and more} $|$ \href{https://www.atharv.pro}{\underline{(WEBSITE)}}}{May 2024 -  Aug 2024 } 
+          \resumeItemListStart
+            \resumeItem{Launched Atharv, an AI-powered agricultural assistant, collaborating with the Ministry of Agriculture in Karnataka. Gained \textbf{5000 users in 48 hours}. Improved crop disease diagnosis and weather prediction \textbf{accuracy by 73\%}, providing personalized farming insights.}
+            \resumeItem{Leveraged cloud technologies and machine learning models to scale and enhance solution delivery.}
+             \resumeItemListEnd
+
+
+
+    \resumeProjectHeading
+          {\textbf{StrategX} $|$ \emph{Python, Flask, Indicators, Machine Learning, ARIMA} $|$ \href{https://github.com/sherwinvishesh/StrategX}{\underline{(GITHUB)}}}{Feb 2024 - Mar 2024 } 
+          \resumeItemListStart
+            \resumeItem{Designed StrategX, a trading companion leveraging AI for insightful stock analysis and predictions, increasing decision-making efficiency by \textbf{48\%}.}
+            \resumeItem{Applied Agile methodologies to manage the project lifecycle and deliver a reliable product.}
+            \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Read Easy} $|$ \emph{HTML, CSS, JavaScript, APIs} $|$ \href{https://github.com/sherwinvishesh/Read-Easy}{\underline{(GITHUB)}}}{Jan 2024 -- Mar 2024}
+          \resumeItemListStart
+          \resumeItem{Created Read Easy, a Chrome extension that enhances online reading for dyslexia, making text more accessible. Increased user productivity by \textbf{36\%}.}
+          \resumeItem{Optimized the extension for cross-platform compatibility and ease of use.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+\section{Other Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Online Director (On-Campus Job)}{Tempe, AZ}
+      {Ira A. Fulton Schools of Engineering at Arizona State University}{Sep. 2022 -- Present}
+      \resumeItemListStart
+        \resumeItem{Spearheaded the development and delivery of online courses using Mediasite, Zoom, and Augmented Reality, significantly \textbf{enhancing distance learning outcomes by 45\%}.}
+        \resumeItem{Collaborated with faculty and IT staff to integrate advanced technology into course content, improving student engagement and satisfaction.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+%-----------This is the place for hidden keywords, where it will be detected by the ATS and not by the Recruiter-----------
+%\textcolor{White}{Technology Consultant, Microsoft Azure, Cloud Technologies, Solution Design, Risk Management, Agile, Scrum, AI, Python, JavaScript, Consulting, Client Relationships, Requirements Analysis, Project Planning, Machine Learning, Blockchain, Microsoft, Azure, AWS, GCP, SQL, MongoDB, Docker, Kubernetes, Jenkins, Ansible, Trading Systems, Voting Systems}
+
+\end{document}
