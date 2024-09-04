@@ -1,0 +1,5 @@
+# In latex format
+*.md linguist-detectable=true
+*.md linguist-documentation=false
+
+# Check 1773:Latex Con?
