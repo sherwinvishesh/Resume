@@ -1,0 +1,194 @@
+%-------------------------
+% Resume in Latex
+% Author : Sherwin Vishesh Jathanna
+% Based off of: Jake's Resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Sherwin Vishesh Jathanna} \\ \vspace{1pt}
+     \href{https://sherwinvishesh.com}{\underline{sherwinvishesh.com}} 
+   \\ \small $|$ +1 (480)810-9529 $|$ \href{mailto:sjathann@asu.edu}{\underline{sjathann@asu.edu}} $|$ 
+    \href{https://linkedin.com/in/sherwinvishesh}{\underline{linkedin.com/in/sherwinvishesh}} $|$
+    \href{https://github.com/sherwinvishesh}{\underline{github.com/sherwinvishesh}} $|$
+     \\ 
+\end{center}
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages:}{ C, C++, Python, CUDA, Bash, Shell Scripting, x86, ARM, Java, JavaScript} \\
+     \textbf{Systems Software:}{ Linux Kernel Development, Operating Systems (Threads, Process Control, Memory/Resource Management, Virtual Memory), Multithreaded Programming, Device Driver Programming, Embedded Systems Development, RTOS Development} \\
+     \textbf{Graphics Systems:}{ OpenGL, OpenGL ES, Vulkan, 3D/2D Graphics Theory, Graphics Driver Development} \\
+     \textbf{Compiler Development:}{ High-Performance Computing, LLVM, gcc, Clang, Compiler Backend Optimization} \\
+     \textbf{Firmware \& Embedded Software:}{ Embedded Systems, Microcontrollers, System Robustness, Performance Optimization, Linux Kernel Development} \\
+     \textbf{Tools \& Frameworks:}{ Docker, Kubernetes, TensorFlow, PyTorch, OpenCV, Microservices, Jenkins, Ansible} \\
+     \textbf{Databases:}{ SQL, MongoDB} \\
+     \textbf{Project Management \& OS:}{ JIRA, Notion, Trello, Asana, Windows, macOS, Ubuntu, Kali} \\
+     \textbf{System-Level Debugging:}{ Unix/Shell Scripting, LSF, SLURM, Configuration Automation, Formal Verification Tools} \\
+    }}
+ \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Arizona State University}{Tempe, AZ}
+      {Bachelor of Science in Computer Science, Minor in Business}{Aug. 2022 -- May 2026}
+      \resumeItemListStart
+        \resumeItem{\textbf{New American University Scholar:} Awarded with \$62,000 worth of scholarship}
+        \resumeItem{\textbf{Dean’s List (Fall 22, Spring 23, Fall 23 \& Spring 24):} Recognition for academic excellence}      
+      \resumeItemListEnd
+   
+\resumeSubHeadingListEnd
+
+%-----------INDUSTRY EXPERIENCE-----------
+\section{Industry Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Web Development Intern}{Remote}
+      {Nexus Info. Pvt. Ltd.}{Dec 2023 -- Feb 2024}
+      \resumeItemListStart
+        \resumeItem{Developed a real-time restaurant management application with the MERN stack, improving operational efficiency by 40\%. Focused on integrating system-level performance enhancements.}
+        \resumeItem{Collaborated with a team to optimize code and debug multithreaded operations, ensuring high performance and reliability.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Featured Projects (Check out my github portfolio for more projects)}
+    \resumeSubHeadingListStart
+\resumeProjectHeading
+          {\textbf{Project-Atharv} $|$ \emph{Python, Flask, APIs, Generative AI} $|$ \href{https://www.atharv.pro}{\underline{(WEBSITE)}}}{May 2024 -  Aug 2024 } 
+          \resumeItemListStart
+            \resumeItem{Launched Atharv, an AI-powered agricultural assistant, leveraging CUDA for accelerated computing, improving diagnostic accuracy by 73\%. Gained 5000 users in 48 hours.}
+             \resumeItemListEnd
+
+    \resumeProjectHeading
+          {\textbf{BlockBallot} $|$ \emph{React.js, Tailwind CSS, Rust, Solana} $|$ \href{https://github.com/sherwinvishesh/BlockBallot}{\underline{(GITHUB)}}}{Jul 2024 } 
+          \resumeItemListStart
+            \resumeItem{Engineered BlockBallot, a decentralized voting system on Solana, enhancing security and transparency. Improved voter participation by 30\%.}
+            \resumeItemListEnd
+
+\resumeProjectHeading
+          {\textbf{QuickAid} $|$ \emph{Node.js, Express.js, APIs} $|$ \href{https://github.com/sherwinvishesh/QuickAid}{\underline{(GITHUB)}}}{Apr 2024 } 
+          \resumeItemListStart
+            \resumeItem{Developed QuickAid, an AI-powered first-aid tool, increasing initial medical response accuracy by 40\%. Integrated system-level optimizations for real-time processing.}
+            \resumeItemListEnd
+
+    \resumeProjectHeading
+          {\textbf{StrategX} $|$ \emph{Python, Flask, ARIMA, Machine Learning} $|$ \href{https://github.com/sherwinvishesh/StrategX}{\underline{(GITHUB)}}}{Feb 2024 - Mar 2024 } 
+          \resumeItemListStart
+            \resumeItem{Designed StrategX, a trading platform using AI and predictive models, enhancing decision-making efficiency by 48\%. Leveraged GPU acceleration for faster computations.}
+            \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Read Easy} $|$ \emph{HTML, CSS, JavaScript, APIs} $|$ \href{https://github.com/sherwinvishesh/Read-Easy}{\underline{(GITHUB)}}}{Jan 2024 -- Mar 2024}
+          \resumeItemListStart
+          \resumeItem{Created Read Easy, a Chrome extension to enhance online reading for dyslexia. Improved productivity by 36\%. Integrated text rendering optimizations using GPU for smoother performance.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+\section{Other Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Online Director (On-Campus Job)}{Tempe, AZ}
+      {Ira A. Fulton Schools of Engineering at Arizona State University}{Sep. 2022 -- Present}
+      \resumeItemListStart
+        \resumeItem{Led the development of online courses, integrating Mediasite, Zoom, and AR technologies. Enhanced distance learning outcomes by 45\% by optimizing system performance and robustness.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+%-----------This is the place for hidden keywords, where it will be detected by the ATS and not by the Recruiter-----------
+%\textcolor{White}{C, C++, CUDA, x86, ARM CPU, GPU, Linux, Perl, Bash/Shell Scripting, Operating Systems, Threads, Process Control, Memory/Resource Management, Virtual Memory, Formal Verification Tools, Spark, Frama-C, Linux Kernel Development, Multi-Threaded Programming, Open Source Tools, CLANG, LLBM, gcc, Testing Production/Automation Tools, XLA, TVM, Halide, Microprocessor Fundamentals, Caches, Buses, Memory Controllers, DMA}
+
+\end{document}
