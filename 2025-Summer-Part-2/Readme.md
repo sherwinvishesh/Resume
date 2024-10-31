@@ -26,6 +26,7 @@ Also remember,
 - Remove the Hashberry Technologies part and let only the web dev inter be in the resume(change the description according to the standards of the job)
 - Keep Refrigerator Ramsay and Project Atharv, keep it, and only add one project to the resume that matches the description
 - Dont add any certifications
+- Also include the oncampus job (Online Director) to the resume
 
 ```
 
